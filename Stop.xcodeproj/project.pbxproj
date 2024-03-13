@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0729C4AC2BA1D0E000FAC8E2 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729C4AB2BA1D0E000FAC8E2 /* TimerView.swift */; };
+		0729C4AE2BA1D1F200FAC8E2 /* TimerSettingBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729C4AD2BA1D1F200FAC8E2 /* TimerSettingBottomView.swift */; };
 		07A435792B95AA1F008A663F /* StopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A435782B95AA1F008A663F /* StopApp.swift */; };
 		07A4357B2B95AA1F008A663F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A4357A2B95AA1F008A663F /* ContentView.swift */; };
 		07A4357D2B95AA21008A663F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A4357C2B95AA21008A663F /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0729C4AB2BA1D0E000FAC8E2 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		0729C4AD2BA1D1F200FAC8E2 /* TimerSettingBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSettingBottomView.swift; sourceTree = "<group>"; };
 		07A435752B95AA1F008A663F /* Stop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A435782B95AA1F008A663F /* StopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopApp.swift; sourceTree = "<group>"; };
 		07A4357A2B95AA1F008A663F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				07A4358A2B95B50D008A663F /* Home.swift */,
+				0729C4AB2BA1D0E000FAC8E2 /* TimerView.swift */,
+				0729C4AD2BA1D1F200FAC8E2 /* TimerSettingBottomView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -161,7 +167,9 @@
 			files = (
 				07A435892B95B205008A663F /* PomodoroModel.swift in Sources */,
 				07A4357B2B95AA1F008A663F /* ContentView.swift in Sources */,
+				0729C4AE2BA1D1F200FAC8E2 /* TimerSettingBottomView.swift in Sources */,
 				07A4358B2B95B50D008A663F /* Home.swift in Sources */,
+				0729C4AC2BA1D0E000FAC8E2 /* TimerView.swift in Sources */,
 				07A435792B95AA1F008A663F /* StopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
